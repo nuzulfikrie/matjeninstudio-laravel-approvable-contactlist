@@ -1,7 +1,50 @@
+# IDE files
 .idea
+.vscode
+.phpstorm.meta.php
+_ide_helper.php
+
+# AI Assistant directories
 .claude
 .gemini
 .opencode
 .codex
-.cursor 
+.cursor
+
+# Temp directories
 eligify-main
+
+# Composer
+/vendor
+composer.lock
+
+# Laravel Package specific
+/workbench
+
+# Testing
+/tests/workbench
+.phpunit.result.cache
+.phpunit.cache
+coverage.xml
+coverage
+*.coverage
+.php_cs.cache
+.php-cs-fixer.cache
+
+# Build artifacts
+/build
+/dist
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Environment files (if you have local testing env)
+.env
+.env.local
+.env.*.local
+
+# SQLite databases (test artifacts)
+*.sqlite
+*.sqlite-journal
+database.sqlite
