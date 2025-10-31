@@ -32,4 +32,3 @@ class ContactFactory extends Factory
         ]);
     }
 }
-

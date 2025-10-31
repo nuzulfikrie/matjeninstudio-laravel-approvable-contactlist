@@ -49,4 +49,3 @@ class ApprovalRecordFactory extends Factory
         ]);
     }
 }
-

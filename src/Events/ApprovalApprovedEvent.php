@@ -14,7 +14,5 @@ class ApprovalApprovedEvent
 
     public function __construct(
         public ApprovalRecord $approvalRecord
-    ) {
-    }
+    ) {}
 }
-

@@ -15,7 +15,7 @@ return new class extends Migration
         $userModel = config('contact-approvable.user_model', 'App\\Models\\User');
         $usersTable = (new $userModel)->getTable();
 
-        //check if table exists
+        // check if table exists
         if (Schema::hasTable($tableName)) {
             return;
         }
@@ -39,4 +39,3 @@ return new class extends Migration
         Schema::dropIfExists($tableName);
     }
 };
-

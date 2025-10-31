@@ -309,4 +309,3 @@ trait Approvable
         return $userIds;
     }
 }
-

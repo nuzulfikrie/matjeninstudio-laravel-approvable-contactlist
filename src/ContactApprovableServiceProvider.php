@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MatJeninStudio\ContactApprovable;
 
 use Illuminate\Support\Facades\Event;
-use Illuminate\Support\ServiceProvider;
 use MatJeninStudio\ContactApprovable\Events\ApprovalRequestedEvent;
 use MatJeninStudio\ContactApprovable\Listeners\NotifyApproversListener;
 use MatJeninStudio\ContactApprovable\Services\ContactApprovableManager;
@@ -33,7 +32,7 @@ class ContactApprovableServiceProvider extends PackageServiceProvider
     {
         // Register the main manager class
         $this->app->singleton(ContactApprovableManager::class, function ($app) {
-            return new ContactApprovableManager();
+            return new ContactApprovableManager;
         });
 
         // Bind the manager to the facade

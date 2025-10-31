@@ -58,4 +58,3 @@ class ApprovalRecord extends Model
         return $this->belongsTo($userModel);
     }
 }
-

@@ -88,4 +88,3 @@ class Contact extends Model
         return $query->where('is_active', false);
     }
 }
-

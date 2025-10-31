@@ -14,7 +14,5 @@ class ContactUpdatedEvent
 
     public function __construct(
         public Contact $contact
-    ) {
-    }
+    ) {}
 }
-

@@ -15,8 +15,7 @@ class ApprovalRejectedNotification extends Notification
 
     public function __construct(
         public ApprovalRecord $approvalRecord
-    ) {
-    }
+    ) {}
 
     /**
      * Get the notification's delivery channels.
@@ -67,4 +66,3 @@ class ApprovalRejectedNotification extends Notification
         ];
     }
 }
-

@@ -10,7 +10,7 @@ return new class extends Migration
 {
     public function up(): void
     {
-        //check if table exists
+        // check if table exists
         if (Schema::hasTable('users')) {
             return;
         }

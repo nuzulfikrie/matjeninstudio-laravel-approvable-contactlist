@@ -11,7 +11,7 @@ return new class extends Migration
     public function up(): void
     {
         $tableName = config('contact-approvable.table_names.documents', 'documents');
-        //check if table exists
+        // check if table exists
         if (Schema::hasTable($tableName)) {
             return;
         }

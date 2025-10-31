@@ -15,8 +15,7 @@ class ApprovalRequestedNotification extends Notification
 
     public function __construct(
         public Approval $approval
-    ) {
-    }
+    ) {}
 
     /**
      * Get the notification's delivery channels.
@@ -60,4 +59,3 @@ class ApprovalRequestedNotification extends Notification
         ];
     }
 }
-

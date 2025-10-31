@@ -14,7 +14,5 @@ class ApprovalRejectedEvent
 
     public function __construct(
         public ApprovalRecord $approvalRecord
-    ) {
-    }
+    ) {}
 }
-
