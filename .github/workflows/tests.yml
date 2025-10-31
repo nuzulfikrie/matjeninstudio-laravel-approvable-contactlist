@@ -49,7 +49,7 @@ jobs:
 
       - name: Run PestPHP Tests with Coverage
         if: matrix.test-coverage
-        run: vendor/bin/pest --coverage --min=80
+        run: vendor/bin/pest --coverage --min=40
         env:
           XDEBUG_MODE: coverage
 

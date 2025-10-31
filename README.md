@@ -2,7 +2,7 @@
 
 <p align="center">
 <a href="https://packagist.org/packages/matjeninstudio/laravel-contact-approvable"><img src="https://img.shields.io/packagist/v/matjeninstudio/laravel-contact-approvable.svg?style=flat-square" alt="Latest Version on Packagist"></a>
-<a href="https://github.com/nuzulfikrie/laravel-contact-approvable/actions"><img src="https://img.shields.io/github/actions/workflow/status/nuzulfikrie/laravel-contact-approvable/ci.yml?branch=main&style=flat-square" alt="GitHub Tests Action Status"></a>
+<a href="https://github.com/nuzulfikrie/laravel-contact-approvable/actions"><img src="https://img.shields.io/github/actions/workflow/status/nuzulfikrie/laravel-contact-approvable/tests.yml?branch=main&style=flat-square" alt="GitHub Tests Action Status"></a>
 <a href="https://packagist.org/packages/matjeninstudio/laravel-contact-approvable"><img src="https://img.shields.io/packagist/dt/matjeninstudio/laravel-contact-approvable.svg?style=flat-square" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/matjeninstudio/laravel-contact-approvable"><img src="https://img.shields.io/packagist/l/matjeninstudio/laravel-contact-approvable.svg?style=flat-square" alt="License"></a>
 </p>
