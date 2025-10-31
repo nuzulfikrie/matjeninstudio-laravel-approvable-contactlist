@@ -15,6 +15,11 @@ return new class extends Migration
         $userModel = config('contact-approvable.user_model', 'App\\Models\\User');
         $usersTable = (new $userModel)->getTable();
 
+        //check if table exists
+        if (Schema::hasTable($tableName)) {
+            return;
+        }
+
         Schema::create($tableName, function (Blueprint $table) use ($contactsTable, $usersTable) {
             $table->id();
             $table->foreignId('contact_id')->constrained($contactsTable)->cascadeOnDelete();

@@ -11,7 +11,12 @@ return new class extends Migration
     public function up(): void
     {
         $tableName = config('contact-approvable.table_names.approvals', 'approvals');
-        $contactsTable = config('contact-approvable.table_names.contacts', 'contacts');
+        $contactsTable = config('contact-approvable.table_names.contacts', 'contacts'); 
+
+        //check if table exists
+        if (Schema::hasTable($tableName)) {
+            return;
+        }
 
         Schema::create($tableName, function (Blueprint $table) use ($contactsTable) {
             $table->id();
