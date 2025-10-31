@@ -11,12 +11,12 @@
         "audit",
         "polymorphic"
     ],
-    "homepage": "https://github.com/matjeninstudio/laravel-contact-approvable",
+    "homepage": "https://github.com/nuzulfikrie/laravel-contact-approvable",
     "license": "MIT",
     "authors": [
         {
-            "name": "MatJenin Studio",
-            "email": "contact@matjeninstudio.com",
+            "name": "Nuzul Fikrie",
+            "email": "nuzulfikrie@gmail.com",
             "role": "Developer"
         }
     ],
