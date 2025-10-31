@@ -5,10 +5,11 @@
 <a href="https://github.com/nuzulfikrie/matjeninstudio-laravel-approvable-contactlist/actions"><img src="https://img.shields.io/github/actions/workflow/status/nuzulfikrie/matjeninstudio-laravel-approvable-contactlist/tests.yml?branch=main&style=flat-square" alt="GitHub Tests Action Status"></a>
 <a href="https://packagist.org/packages/matjeninstudio/laravel-contact-approvable"><img src="https://img.shields.io/packagist/dt/matjeninstudio/laravel-contact-approvable.svg?style=flat-square" alt="Total Downloads"></a>
 <a href="https://github.com/nuzulfikrie/matjeninstudio-laravel-approvable-contactlist/blob/main/LICENSE.md"><img src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square" alt="License"></a>
+<a href="https://coderabbit.ai">
+  <img src="https://img.shields.io/coderabbit/prs/github/nuzulfikrie/matjeninstudio-laravel-approvable-contactlist?utm_source=oss&utm_medium=github&utm_campaign=nuzulfikrie%2Fmatjeninstudio-laravel-approvable-contactlist&labelColor=171717&color=FF570A&label=CodeRabbit+Reviews" alt="CodeRabbit Pull Request Reviews">
+</a>
 </p>
-![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/nuzulfikrie/matjeninstudio-laravel-approvable-contactlist?utm_source=oss&utm_medium=github&utm_campaign=nuzulfikrie%2Fmatjeninstudio-laravel-approvable-contactlist&labelColor=171717&color=FF570A&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit+Reviews
 
-)
 A powerful Laravel package that brings enterprise-grade approval workflows to your application. Manage contacts, approval requests, and audit trails with polymorphic relationships, real-time notifications, and a beautiful admin interface inspired by Laravel Telescope.
 
 ## ✨ Features
