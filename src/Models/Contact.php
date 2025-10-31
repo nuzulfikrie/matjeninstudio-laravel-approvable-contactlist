@@ -31,6 +31,10 @@ class Contact extends Model
         'is_active' => 'boolean',
     ];
 
+    protected $attributes = [
+        'is_active' => true,
+    ];
+
     /**
      * Get the table name from config.
      */
